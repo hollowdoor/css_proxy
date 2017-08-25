@@ -1,0 +1,39 @@
+{
+  "name": "css-proxy",
+  "version": "1.0.0",
+  "description": "Easily set, and get css properties",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "npm run build && cd test && electron .",
+    "build": "ebam"
+  },
+  "ebam": {
+    "entry": "src/index.js"
+  },
+  "keywords": [
+    "css",
+    "styles",
+    "style",
+    "DOM"
+  ],
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "decamelize": "^1.2.0",
+    "rgb-hex": "^2.1.0"
+  },
+  "jsnext:main": "dist/bundle.es.js",
+  "module": "dist/bundle.es.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowdoor/css_proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hollowdoor/css_proxy/issues"
+  },
+  "homepage": "https://github.com/hollowdoor/css_proxy#readme"
+}

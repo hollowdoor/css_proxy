@@ -1,0 +1,13 @@
+:root {
+    --bg-color: red;
+}
+
+body {
+    transition: color 1s, background-color 1s;
+    background-color: var(--bg-color);
+    color: blue;
+}
+
+h1 {
+    background-color: green;
+}
