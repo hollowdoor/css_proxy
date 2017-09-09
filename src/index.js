@@ -67,6 +67,7 @@ export default function cssProxy(
         },
         set(target, name, value){
             target.cssSet(name, value);
+            return true;
         }
     });
 

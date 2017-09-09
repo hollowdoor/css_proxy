@@ -74,6 +74,7 @@ function cssProxy(
         },
         set: function set(target, name, value){
             target.cssSet(name, value);
+            return true;
         }
     });
 
